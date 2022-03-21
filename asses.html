@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="asses.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <title>Hotel Booking</title>
+    </head>
+    <body>
+      <h1>Kushal Savit Choudhary</h1>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">K-Hotels</label>
+            <ul>
+              <li><a class="active" href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Locations</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Feedback</a></li>
+            </ul>
+          </nav>
+          <div style="background-image: url('khotel.png'); background-size: 80%; background-repeat: no-repeat;background-position: center;">
+        <image id="hotel-image"style="margin-top: 30px; height: 20%; margin-left: 20px; width: 20%; border-radius: 10px;" src="pexels-photo-164595.jpeg"></image>
+        <image id="hotel-image"style="margin-top: 30px; height: 20%; margin-left: 20px; width: 20%; border-radius: 10px;" src="download.jpg"></image>
+        <image id="hotel-image"style="margin-top: 30px; height: 20%; margin-left: 20px; width: 20%; border-radius: 10px;" src="download (1).jpg"></image>
+        <image id="hotel-image"style="margin-top: 30px; height: 20%; margin-left: 30px; width: 20%; border-radius: 20px;" src="download (2).jpg"></image>
+        <div id="Div1" style="margin-top:100px">
+          <form action="#" method="post">
+            <fieldset>
+              <h2 style="color:Red;">Fill in your Details For Booking!!</h2>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your Name"/><br/><br/>
+                <label for="email">Email</label>
+                <input type="emai" id="email" placeholder="Enter your email"/><br/><br/>
+                <label for="noofroom">Enter Number of Rooms you want</label>
+                <select id='some_id' name='some_name'>
+                  <option hidden selected>None...</option>
+                  <option value='Value1'>1</option>
+                  <option value='Value2'>2</option>
+                  <option value='Value3'>3</option>
+                  <option value='Value4'>4</option></select><br/><br/>
+                <label for="name">Check In</label>
+                <input type="date" id="chkin" placeholder="Enter check in"/><br/><br/>
+                <label for="name">Check Out</label>
+                <input type="date" id="chkout" placeholder="Enter check out"/><br/><br/>
+            </fieldset>
+        </form>
+        <button id="button1">Confirm</button>
+        <button id="button2">Cancel</button>
+        <button id="button3">Update</button>
+        <button id="button4">Pending</button>
+    </div>
+  </div>
+        <script type="text/javascript" src="asses.js"></script>
+    </body>
+</html>
